@@ -1,0 +1,45 @@
+# Local environments and Python caches
+.venv/
+venv/
+env/
+fl_env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+build/
+dist/
+*.egg-info/
+
+# Images, local dataset manifests, and checkpoints
+preprocessed_*/
+Data/*
+!Data/dataset_summary.json
+!Data/global_label_map.json
+*.pt
+*.pth
+*.ckpt
+*.dcm
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Generated training output; archived text results are tracked explicitly
+outputs/
+logs/
+*.log
+/phase5_federated/
+preprocessing/phase5_federated/global_models/
+preprocessing/phase5_federated/hospital_weights/
+
+# Local settings and temporary files
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+tmp/
