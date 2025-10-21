@@ -1,0 +1,5 @@
+{
+  "Normal": 0,
+  "Pneumonia": 1,
+  "Other": 2
+}

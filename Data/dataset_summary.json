@@ -1,0 +1,33 @@
+{
+  "total_samples": 152126,
+  "num_hospitals": 4,
+  "num_classes": 3,
+  "classes": [
+    "Normal",
+    "Pneumonia",
+    "Other"
+  ],
+  "label_distribution": {
+    "Normal": 85362,
+    "Pneumonia": 11715,
+    "Other": 55049
+  },
+  "hospitals": {
+    "D_rsna_pneumonia": {
+      "samples": 26684,
+      "type": "Large, Pneumonia-specialized"
+    },
+    "C_indiana_small": {
+      "samples": 7466,
+      "type": "Small, Low-resource"
+    },
+    "B_nih_adult": {
+      "samples": 112120,
+      "type": "Large, Adult, Diverse"
+    },
+    "D_pediatric_pneumonia": {
+      "samples": 5856,
+      "type": "Pediatric, High pneumonia rate"
+    }
+  }
+}
