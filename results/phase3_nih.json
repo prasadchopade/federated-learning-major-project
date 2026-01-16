@@ -1,0 +1,15 @@
+{
+  "total_rounds": 3,
+  "local_epochs": 1,
+  "round_accuracies": [
+    0.5740156017830609,
+    0.6683692421991084,
+    0.6794205052005944
+  ],
+  "client_names": [
+    "B_nih_adult"
+  ],
+  "final_accuracies": {
+    "B_nih_adult": 0.6794205052005944
+  }
+}
