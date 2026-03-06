@@ -1,0 +1,5 @@
+Hospital: NIH Adult
+Round: 1
+Final Val Accuracy: 69.71%
+Final Val Loss: 0.6432
+Classes: NORMAL=0, PNEUMONIA=1, OTHER=2
