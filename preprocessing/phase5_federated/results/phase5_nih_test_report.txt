@@ -1,0 +1,15 @@
+Classification report (NIH Adult test, 3-class):
+               precision    recall  f1-score   support
+
+   NORMAL (0)       0.59      0.96      0.73      5970
+PNEUMONIA (1)       0.00      0.00      0.00       137
+    OTHER (2)       0.76      0.18      0.30      4841
+
+     accuracy                           0.60     10948
+    macro avg       0.45      0.38      0.34     10948
+ weighted avg       0.65      0.60      0.53     10948
+
+Confusion matrix (rows=true, cols=pred):
+[[5727    0  243]
+ [  95    0   42]
+ [3950    0  891]]
