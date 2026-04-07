@@ -1,0 +1,20 @@
+{
+  "metric": "test_accuracy_percent",
+  "hospitals": {
+    "rsna": {
+      "local": 81.03,
+      "fedavg": 79.5,
+      "weighted_scheduled_fl": 84.8
+    },
+    "pediatric": {
+      "local": 81.49,
+      "fedavg": 79.2,
+      "weighted_scheduled_fl": 87.5
+    },
+    "nih": {
+      "local": 67.29,
+      "fedavg": 72.8,
+      "weighted_scheduled_fl": 71.2
+    }
+  }
+}
