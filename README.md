@@ -4,6 +4,8 @@ A college major project on training a shared pneumonia classifier across separat
 
 **Python · PyTorch · ResNet-50 · Federated Averaging · Non-IID data**
 
+[Method](docs/method.md) · [Run guide](docs/running.md) · [Results](docs/results.md)
+
 The study compares local training, standard FedAvg, and fixed weighted aggregation with scheduled hospital participation. Images are classified as **Normal**, **Pneumonia**, or **Other**.
 
 ## How it works
